@@ -68,20 +68,3 @@ revelar.reveal('.efeito-livro3', {
     distance: '50px',
     delay: 400
 });
-
-revelar.reveal('.efeito-livro4', {
-    duration: 1000,
-    distance: '50px'
-});
-
-revelar.reveal('.efeito-livro5', {
-    duration: 1000,
-    distance: '50px',
-    delay: 200
-});
-
-revelar.reveal('.efeito-livro6', {
-    duration: 1000,
-    distance: '50px',
-    delay: 400
-});
