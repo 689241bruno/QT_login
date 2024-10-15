@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg, black, rgb(29, 28, 28), black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxForm{
+    background-color: rgb(255, 255, 255);
+    height: 75vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.833);
+    padding: 5px;
+}
+form{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+section > p{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+section > input{
+    border: none;
+    height: 28px;
+    background-color: rgb(225, 225, 225);
+    padding: 5px;
+    font-size: 15px;
+}
+section > a{
+    text-align: center;
+}
+#btnCadastrar{
+    height: 40px;
+    border: none;
+    background-image: linear-gradient(45deg, black, rgb(29, 28, 28), black);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+}
+#btnCadastrar:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.3s;
+    opacity: 80%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.835);
+}
